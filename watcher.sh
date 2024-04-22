@@ -42,11 +42,10 @@ print_message "Script execution complete."
 
 ##for troubleshooting use this commands
 
-#restart de pods and set the restart count back to 0 to debug the bash script
+#restart  pods and set the restart count back to 0 to debug the bash script
 #kubectl delete pod <pod_name> -n <namespace>
 
 # run the script using ./watcher.sh  to monitor is functioning 
-
 #in a splitted terminal is possible to monitor the current status of a pod and the restarting proccess 
 #kubectl get pods --namespace sre -w
 
