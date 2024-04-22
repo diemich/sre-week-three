@@ -1,8 +1,5 @@
 #!/bin/bash 
-
 #Written by Diego Clavijo // https://github.com/diemich
-
-#TODO
 
 # Kubernetes Deployment Monitoring Script
 
@@ -41,3 +38,25 @@ while true; do
 done
 
 print_message "Script execution complete."
+
+
+##for troubleshooting use this commands
+
+#restart de pods and set the restart count back to 0 to debug the bash script
+kubectl delete pod <pod_name> -n <namespace>
+
+# run the script using ./watcher.sh  to monitor is functioning 
+
+#in a splitted terminal is possible to monitor the current status of a pod and the restarting proccess 
+kubectl get pods --namespace sre -w
+
+
+#Resources used 
+#https://www.howtogeek.com/804823/nohup-command-linux/
+#https://spacelift.io/blog/restart-kubernetes-pods-with-kubectl
+#https://kubernetes.io/docs/reference/kubectl/generated/kubectl_scale/
+#https://linuxhandbook.com/run-process-background/
+#https://stackoverflow.com/questions/59658516/kubernetes-pod-restart-count-shows-inconsistent-values-when-kubectl-get-pod-w-i
+
+
+
