@@ -1,0 +1,71 @@
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 23: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 23: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 23: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 28: [: : integer expression expected
+[]  Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 28: [: : integer expression expected
+[]  Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 28: [: : integer expression expected
+[]  Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 29: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 29: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 29: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 29: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 29: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 29: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 29: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+Error from server (NotFound): pods "swype-app" not found
+Current restart count: 
+watcher.sh: line 29: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+watcher.sh: line 11: ${kubectl get pods --namespace sre | grep swype |awk '{print $1}'|head -n 1}: bad substitution
+Monitoring sre  
+watcher.sh: line 21: read: read error: 0: Bad file descriptor
+error: resource name may not be empty
+Current restart count: 
+watcher.sh: line 32: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+error: resource name may not be empty
+Current restart count: 
+watcher.sh: line 32: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
+error: resource name may not be empty
+Current restart count: 
+watcher.sh: line 32: [: : integer expression expected
+Restart count within limits. Waiting for 60 seconds...
